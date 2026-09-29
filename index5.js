@@ -22,7 +22,6 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000);
 
-/*
 const req = http.request(
     {hostname: 'localhost', port:3000, 
     method: 'POST', path:'/produtos'},
@@ -34,4 +33,3 @@ const req = http.request(
 
 req.write(JSON.stringify({nome:"Pera", quantidade: 100}));
 req.end();
-*/
